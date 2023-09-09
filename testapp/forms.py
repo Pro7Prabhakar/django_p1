@@ -1,5 +1,5 @@
 from django import forms
-forms testapp.models import Student
+from testapp.models import Student
 
 class StudentForm(forms.ModelForm):
     name = forms.CharField()
